@@ -37,7 +37,7 @@
     justify-content: space-around;
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .header{
         justify-content: space-evenly;
         height: 25vh;
@@ -45,6 +45,6 @@
 
     .title{
         font-size: 6vh;
-        padding-top: 20px;
+        padding-top: 15px;
     }
 }
