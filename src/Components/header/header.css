@@ -1,0 +1,50 @@
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 7vw;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+
+}
+
+@media (max-width:900px) {
+    .header{
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+
+    .title{
+        font-size: 11vh;
+    }
+
+}
+
+.text, .select{
+    width: 43%;
+
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:400px) {
+    .header{
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+
+    .title{
+        font-size: 6vh;
+        padding-top: 20px;
+    }
+}
