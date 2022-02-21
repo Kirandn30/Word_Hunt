@@ -40,7 +40,8 @@
 @media (max-width:450px) {
     .header{
         justify-content: space-evenly;
-        height: 25vh;
+        height: 40vh;
+        padding-top: 5px;
     }
 
     .title{

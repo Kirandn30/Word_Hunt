@@ -29,5 +29,20 @@
         overflow-x: hidden;
         overflow-y: scroll;
     }
+
+    .subTitle{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 3vw;
+    }
     
+}
+
+@media (max-width:450px) {
+    .meanings{
+        height:40vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-bottom: 50px;
+    }
 }
